@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>فروشگاه کالای دیجیتال</title>
+    <link rel="stylesheet" href="./css/main.css"/>
+    <link rel="stylesheet" href="./scss/main.scss"/>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        swiper-container {
+          width: 100%;
+          height: 500px;
+        }
+    
+        swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+    
+        swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      </style>
+</head>
+
+<body>
+    <main>
+        <header>
+      <!-- NAVBAR START -->
+      <nav class="bg-black w-full">
+                <div class="flex items-center justify-center gap-7 h-16">
+                  <a href="./home.html"
+                    class="text-white hover:text-[#f13a11] transition-all duration-[0.4s] text-xl">خانه</a>
+                  <a href="./about-us.html"
+                    class="text-white hover:text-[#f13a11] transition-all duration-[0.4s] text-xl">درباره
+                    ما</a>
+                  <a href="#"
+                    class="text-white hover:text-[#f13a11] transition-all duration-[0.4s] text-xl">محصولات</a>
+                  <a href="./contact-us.html"
+                    class="text-white hover:text-[#f13a11] transition-all duration-[0.4s] text-xl">تماس
+                    با
+                    ما</a>
+                </div>
+      </nav>
+      <!-- NAVBAR END -->
+        </header>
+
+        <!-- SWIPER START -->
+        <swiper-container class="mySwiper" navigation="true">
+            <swiper-slide><img src="https://dkstatics-public.digikala.com/digikala-adservice-banners/1bd2722aa73cdbaef6814cc7bd986446ed17826b_1728285327.jpg?x-oss-process=image/quality,q_95/format,webp" alt=""/></swiper-slide>
+            <swiper-slide><img src="https://dkstatics-public.digikala.com/digikala-adservice-banners/1bd2722aa73cdbaef6814cc7bd986446ed17826b_1728285327.jpg?x-oss-process=image/quality,q_95/format,webp" alt=""/></swiper-slide>
+            <swiper-slide><img src="https://dkstatics-public.digikala.com/digikala-adservice-banners/1bd2722aa73cdbaef6814cc7bd986446ed17826b_1728285327.jpg?x-oss-process=image/quality,q_95/format,webp" alt=""/></swiper-slide>
+            <swiper-slide><img src="https://dkstatics-public.digikala.com/digikala-adservice-banners/1bd2722aa73cdbaef6814cc7bd986446ed17826b_1728285327.jpg?x-oss-process=image/quality,q_95/format,webp" alt=""/></swiper-slide>
+            <swiper-slide><img src="https://dkstatics-public.digikala.com/digikala-adservice-banners/1bd2722aa73cdbaef6814cc7bd986446ed17826b_1728285327.jpg?x-oss-process=image/quality,q_95/format,webp" alt=""/></swiper-slide>
+          </swiper-container>
+        <!-- SWIPER END -->
+
+        <div id="root" class="w-full flex flex-wrap gap-4 justify-center">
+            <div>
+                <p></p>
+                <img src="https://dkstatics-public.digikala.com/digikala-products/f6b484b320072427fa8d2effa03c5dcfdc0a303e_1719051864.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80" alt=""/>
+            </div>
+            <div>
+                <p></p>
+                <img src="https://dkstatics-public.digikala.com/digikala-products/f6b484b320072427fa8d2effa03c5dcfdc0a303e_1719051864.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80" alt=""/>
+            </div>
+            <div>
+                <p></p>
+                <img src="https://dkstatics-public.digikala.com/digikala-products/f6b484b320072427fa8d2effa03c5dcfdc0a303e_1719051864.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80" alt=""/>
+            </div>
+            <div>
+                <p></p>
+                <img src="https://dkstatics-public.digikala.com/digikala-products/f6b484b320072427fa8d2effa03c5dcfdc0a303e_1719051864.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80" alt=""/>
+            </div>
+            <div>
+                <p></p>
+                <img src="https://dkstatics-public.digikala.com/digikala-products/f6b484b320072427fa8d2effa03c5dcfdc0a303e_1719051864.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80" alt=""/>
+            </div>
+            <div>
+                <p></p>
+                <img src="https://dkstatics-public.digikala.com/digikala-products/f6b484b320072427fa8d2effa03c5dcfdc0a303e_1719051864.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80" alt=""/>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+        <script src="./node_modules/axios/dist/axios.min.js"></script>
+        <script src="./main.js"></script>
+    </main>
+
+</body>
+
+</html>
