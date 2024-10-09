@@ -1,4 +1,5 @@
-[
+{
+   "products":[
     {
       "id": 1,
       "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
@@ -28,4 +29,5 @@
       "id": 6,
       "img": "https://dkstatics-public.digikala.com/digikala-products/f6b484b320072427fa8d2effa03c5dcfdc0a303e_1719051864.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
     }
-]
+] 
+}
